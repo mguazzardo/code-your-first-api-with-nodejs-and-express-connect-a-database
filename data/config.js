@@ -2,9 +2,9 @@ const mysql = require('mysql');
 
 // Set database connection credentials
 const config = {
-    host: 'localhost',
-    user: 'root',
-    password: 'root',
+    host: 'mysql',
+    user: 'user1',
+    password: 'master',
     database: 'api',
 };
 
